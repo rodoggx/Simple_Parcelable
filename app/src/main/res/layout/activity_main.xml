@@ -14,10 +14,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+   <EditText
+       android:id="@+id/mEdt1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Student Name"/>
+
     <Button
         android:id="@+id/mBtn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="doMagic"/>
+        android:onClick="doMagic"
+        android:text="Enter"/>
 
 </LinearLayout>
