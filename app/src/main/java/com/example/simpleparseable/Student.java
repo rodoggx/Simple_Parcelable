@@ -1,9 +1,9 @@
 package com.example.simpleparseable;
 
+import android.os.Parcel;
+import android.os.Parcelable;
 public class Student {
-
-    public String name;
-    public Integer age;
-    public Double grade;
-
+    String name;
+    int age;
+    double grade;
 }
